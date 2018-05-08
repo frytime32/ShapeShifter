@@ -28,7 +28,7 @@ def peek(parquetFilePath, numRows=10, numCols=10)->pd.DataFrame:
 	df=df.iloc[0:numRows, 0:numCols]
 	return df
 
-def peekByColumnNames(parquetFilePath, listOfColumnNames,numRows=10)->pd.DataFrame:i
+def peekByColumnNames(parquetFilePath, listOfColumnNames,numRows=10)->pd.DataFrame:
 	"""
 	Returns a pandas dataframe containing row data for a given list of column names
 	"""
